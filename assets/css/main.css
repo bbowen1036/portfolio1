@@ -4037,11 +4037,27 @@ input, select, textarea {
 		cursor: pointer !important;
 	}
 
+	.education {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.schooling {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		margin: 9px;
+	}
+
 	.education img {
 		max-width: 130px;
 		margin: 1rem;
-
 	}
+
+
+	
 
 	.fa-linkedin-in, .fa-angellist,.fa-github  {
 		-moz-transform: rotate(-45deg);
