@@ -4010,6 +4010,17 @@ input, select, textarea {
 		text-align: left;
 	}
 
+	.live-links {
+		border: none;
+		border: 1 px solid red !important;
+	}
+
+	.project-links {
+		color: red;
+		border: 1 px solid red !important;
+		margin-left: 250px;
+	}
+
 	.name-header  {
 		font: 100 96px/1 'lato';
 		text-transform: uppercase;
