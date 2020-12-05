@@ -2058,6 +2058,7 @@ input, select, textarea {
 			line-height: 3em;
 			text-align: center;
 			width: calc(3em + 2px);
+			
 		}
 
 			.icon.major:before {
@@ -2078,7 +2079,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #dd7732;
 		}
 
 		.icon.style2 {
@@ -2302,6 +2303,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		
 	}
 
 		ul.icons li {
@@ -2817,16 +2819,17 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #fdffff;
+			/* background-color: #21b2a6; */
+			color: #080808;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
-				color: #ffffff;
+				color: #070808;;
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #ffffff;
+				color: #070808;;
 			}
 
 			.wrapper.style1 hr {
@@ -2842,7 +2845,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header p {
-				color: #a6e0db;
+				color: #070808;
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
@@ -2850,11 +2853,11 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #070808;
 			}
 
 			.wrapper.style1 label {
-				color: #ffffff;
+				color: #070808;
 			}
 
 			.wrapper.style1 input[type="text"],
@@ -4057,7 +4060,23 @@ input, select, textarea {
 	}
 
 
+
+	.footer-group {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
 	
+	.footer-headshot {
+			height: 350px;
+			width: auto;
+			/* border-radius: 40%; */
+			/* border: 2px solid  #21b2a6; */
+			/* background-color:   #21b2a6;
+			overflow: hidden; */
+    
+      /* border-radius: 50px / 100px; */
+	}
 
 	.fa-linkedin-in, .fa-angellist,.fa-github  {
 		-moz-transform: rotate(-45deg);

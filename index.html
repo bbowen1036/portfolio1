@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -20,6 +16,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<meta http-equiv="X-UA-Compatible" content="IE=9" />
 
@@ -27,7 +24,11 @@
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
 
-
+	<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/favicon/site.webmanifest">
 
 	</head>
 	<body class="landing is-preload">
@@ -68,6 +69,9 @@
 						<div class="inner">
 							<header class="major">
 								<h2>About</h2>
+								<div class="typer-container">
+									<p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+								</div>
 								<p class="about-desc"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! My name is Brian Bowen, and  am a chef-turned-software-engineer who focuses on solving the right problems. 
 									With over 18 yrs of experience in the hospitality industry, I have been part of the top 1, 2, and 3 Michelin starred restaurants in the Bay Area as well as abroad, 
 									and have led and mentored teams of 10 - 40 people. This experience has given me the invaluable skills and added perspective needed to succeed when approaching engineering problems.
@@ -238,8 +242,10 @@
 						<!-- Footer -->
 						<section id="footer">
 							<div class="inner">
-								<h2 class="major">Let's Connect</h2>
-					
+								<h2 class="major">Let's Connect!</h2>
+
+								<h3>"Passionate and Curious Software Engineer <br> Looking For Opportunities."</h3>
+<!-- 					
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field">
@@ -258,13 +264,17 @@
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" /></li>
 									</ul>
-								</form>
-								<ul class="contact">
-									<li class="icon solid fa-phone"> (951) 743-7594</li>
-									<li class="icon solid fa-envelope"><a href="mailto:bbowen106@gmail.com"> bbowen106@gmail.com</a></li>
-					
-								</ul>
-						
+								</form> -->
+								<div class="footer-group">
+
+									<ul class="contact">
+										<li class="icon solid fa-phone">(951) 743-7594</li>
+										<li class="icon solid fa-envelope"><a href="mailto:bbowen106@gmail.com"> bbowen106@gmail.com</a></li>
+										<li class="icon solid fa-map-marker-alt"> San Francisco | Los Angeles | New York</li>
+									</ul>
+							
+									<img class="footer-headshot" src="https://oceanstar-seed.s3-us-west-1.amazonaws.com/footerheadshot.png" alt="me">
+								</div>
 							</div>
 						</section>
 	
@@ -294,6 +304,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src='assets/js/typer.js'></script>
 
 	</body>
 </html>
