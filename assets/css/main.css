@@ -2465,7 +2465,7 @@ input, select, textarea {
 		input[type="button"].fit,
 		button.fit,
 		.button.fit {
-			width: 100%;
+			width: 102%;
 		}
 
 		input[type="submit"].small,
@@ -3946,6 +3946,7 @@ input, select, textarea {
 						padding: 0.5em 0;
 					}
 
+					
 				}
 
 		@media screen and (max-width: 980px) {
