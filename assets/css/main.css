@@ -4044,6 +4044,7 @@ input, select, textarea {
 	.education {
 		display: flex;
 		justify-content: center;
+		
 	}
 	
 	.schooling {
@@ -4052,13 +4053,14 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 		padding: 10px;
-		margin: 9px;
-		height: 275px;
-		width: 280px;
+		margin-top: 25px;
+		margin-left: 35px;
+		margin-right: 35px;
 	}
 	.schooling > img {
 		height: 130px;
 		width: 130px;
+		margin-bottom: 15px;
 	}
 
 
